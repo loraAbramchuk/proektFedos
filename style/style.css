@@ -35,6 +35,13 @@
      background-color: rgb(99, 184, 255);
      border-color: rgb(99, 184, 255);
      border-radius: 10px;
+     width: 80%;
+ }
+ 
+ .bgcolor_1M {
+     background-color: rgb(99, 184, 255);
+     border-color: rgb(99, 184, 255);
+     border-radius: 10px;
  }
  
  .bgcolor_2 {
@@ -44,20 +51,26 @@
  }
  
  .btncolor_left {
-     border-color: rgb(99, 184, 255);
      border-top-left-radius: 10px;
      border-top-right-radius: 0px;
      border-bottom-left-radius: 10px;
      border-bottom-right-radius: 0px;
      margin-right: -5px;
+     width: 60%;
  }
  
  .btncolor_right {
-     border-color: rgb(99, 184, 255);
      border-top-right-radius: 10px;
      border-top-left-radius: 0px;
      border-bottom-right-radius: 10px;
      border-bottom-left-radius: 0px;
+ }
+ 
+ .btncolor_left,
+ .btncolor_right {
+     margin-bottom: 15px;
+     border-width: 2px;
+     border-color: rgb(99, 184, 255);
  }
  
  .btnsize1_xs {
@@ -84,10 +97,14 @@
      padding-left: 5.566666%;
  }
  
- h3,
  h2 {
      font-family: TriviaSansRegular;
      margin-top: 0px;
+ }
+ 
+ h3 {
+     font-family: TriviaSansRegular;
+     margin-top: 70px;
  }
  
  btn {
